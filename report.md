@@ -4,7 +4,7 @@
 
 09.06.21 было проведено функциональное тестирование приложения валидации номера банковской карты.
 
-На тестирование затрачено: 1,5
+На тестирование затрачено: 01:30
 
 В результате тестирования выявлены следующие дефекты:
 * [При валидации номера банковской карты не принимает карту с номером больше 16 цифр](https://github.com/ElenaGorshenina/Java1.1/issues/1)
@@ -13,8 +13,10 @@
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
-* отчет о тестировании
-* баг репорты
+* [Домашнее задание к занятию «1.1. Введение в Java: JDK, JRE, JVM, IntelliJ IDEA»](https://github.com/netology-code/javaqa-homeworks/tree/master/intro);
+* [Руководство по установке IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md);
+* [Генератор номеров кредитных карт](https://cartoved.ru/common/generator-kreditnyh-kart.html); 
+* [freeformatter.com](https://www.freeformatter.com/credit-card-number-generator-validator.html).
 
 В качестве тестовых данных использовались данные [Генератор номеров кредитных карт](https://cartoved.ru/common/generator-kreditnyh-kart.html) и [freeformatter.com](https://www.freeformatter.com/credit-card-number-generator-validator.html):
 * 5404 3679 6305 9740
